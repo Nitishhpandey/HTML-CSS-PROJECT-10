@@ -1,0 +1,174 @@
+ *{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+ }
+ body{
+  background-image: url("./Assest/bgimage.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+ }
+ 
+img{
+  height: 40px;
+  width: 100px;
+ }
+
+ .navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0.5rem 8rem;
+  font-weight: 900;
+  font-size: 2rem;
+  overflow-y: auto;
+}
+.list{
+ display: flex;
+ justify-content:space-evenly;
+ align-items: center;
+ font-size: 1.25rem;
+}
+.list-item{
+ list-style:none;
+ margin: 0 1rem;
+ color:white;
+}
+
+.list-item p{
+text-align: center;
+}
+
+.line{
+  width: 0.25rem;
+  height:40rem;
+  background-color:white;
+  position: absolute;
+  margin-top: 5rem;
+  transform: translateX(50%);
+  transform: rotate(90deg);
+  margin-left: 60%;
+}
+
+  
+.hero{
+  display: flex;
+  justify-content: space-around;
+  margin-left: 0rem;
+}
+
+
+h1{
+  font-size: 3.85rem;
+  margin-top: 17rem;
+  color: white;
+}
+
+
+button{
+  background-color:transparent; 
+   color: white;
+   padding: 15px 32px;
+   text-align: center;
+   text-decoration: none;
+   font-size: 20px;
+   border-radius: 25px;
+   border: 2px solid white;
+   font-weight: 700;
+   margin-top: 2rem;
+   margin-left: 1rem;
+}
+
+.right{
+  display: flex;
+  margin-top: 7rem;
+}
+.square1{
+  background-color:rgba(234, 224, 224, 0.808);
+  /* text-align: center; */
+  margin-right: 3rem;
+  height: 140px;
+  width: 230px;
+  /* align-items:center; */
+  margin-top: 13rem;
+  font-size: 1.25rem;
+}
+
+.icon{
+  background-color:whitesmoke;
+  border: 2px solid white; 
+  height: 2rem;
+  width: 5rem;
+  margin-top: 1rem;
+  border-radius: 4rem;
+  margin-left: 2rem;
+  text-align: center;
+
+  
+}
+.square1 p {
+  margin-top: 1rem;
+  color: white;
+}
+
+.circle-line{
+  width: 0.2rem;
+  height:4rem;
+  background-color:white;
+  position: absolute;
+  margin-top: 14rem;
+  transform: translateX(50%);
+  transform: rotate(-90deg);
+  margin-left: 17.5%;
+}
+
+
+.circle {
+  position: absolute;
+  top: 100%;
+  right: -13px; 
+  width: 20px;  
+  height: 20px;  
+  border-radius: 50%;
+  background-color: white;  
+  transform: translateY(-56%);
+}
+.square2{
+  background-color:rgba(234, 224, 224, 0.808);
+  text-align: center;
+  margin-right: 3rem;
+  height: 150px;
+  width: 230px;
+  align-items:center;
+  margin-top: 1rem;
+  font-size: 1.25rem;
+}
+
+.square2 p {
+  margin-top: 1rem;
+  color: white;
+}
+
+.circle-line1{
+  width: 0.2rem;
+  height:4rem;
+  background-color:white;
+  position: absolute;
+  margin-top: 10.4rem;
+  transform: translateX(50%);
+  transform: rotate(0deg);
+  margin-left: 30%;
+}
+
+
+.circle1 {
+  position: absolute;
+  top: 100%;
+  right: -13px; 
+  width: 20px;  
+  height: 20px;  
+  border-radius: 50%;
+  background-color: white;  
+  transform: translateY(-60%);
+}
+ 
